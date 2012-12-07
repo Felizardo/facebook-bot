@@ -1,0 +1,22 @@
+This project has the purpose to build a infra-structure to create IRC-like bots on Facebook.
+There is a quiz game included as example, gamagame.py 
+http://www.facebook.com/thegamagame
+
+To make it work, first create a fb application following fb tutorial, then create this configuration files:
+---- config.php ----
+<?php
+   $app_id = "APP_ID";
+   $app_secret = "APP_SECRET";
+   $my_url = "http://localhost/FBOT/index.php";
+?>
+
+and
+
+---- config_access_token ----
+ACCESS_TOKEN
+
+
+To get the ACCESS_TOKEN, use the php application in the folder php_get_token
+
+LICENSE IS GNU GENERAL PUBLIC LICENSE v2.0.
+http://www.gnu.org/licenses/gpl-2.0.html
